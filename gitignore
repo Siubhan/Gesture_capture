@@ -1,0 +1,53 @@
+# ---------- Проект Gesture FX ----------
+# Модели MediaPipe скачиваются автоматически при первом запуске
+models/
+*.task
+*.tflite
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Сборка и пакеты
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+pip-log.txt
+
+# ---------- Тесты, покрытие, линтеры ----------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# ---------- Редакторы и IDE ----------
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---------- Системные файлы ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Секреты и локальные настройки ----------
+.env
+.env.*
+*.log
