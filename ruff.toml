@@ -1,0 +1,8 @@
+line-length = 100
+
+[lint]
+select = ["F", "E", "W", "B", "SIM", "PERF", "UP", "I"]
+ignore = ["E501"]
+
+[lint.per-file-ignores]
+"tests/*" = ["E702"]   # в тестах допустимо несколько коротких операторов в строке
